@@ -100,3 +100,17 @@ Model names can be changed in:
 ```text
 src/config/settings.py
 ```
+
+## Langfuse observability
+
+The CLI now sends chat events to Langfuse through the LangChain callback integration.
+
+Required environment variables:
+
+```bash
+LANGFUSE_PUBLIC_KEY=<your-public-key>
+LANGFUSE_SECRET_KEY=<your-secret-key>
+LANGFUSE_BASE_URL=<your-langfuse-api-url>
+```
+
+When `main.py` exits, the app flushes pending Langfuse events before terminating.

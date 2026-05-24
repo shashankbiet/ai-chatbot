@@ -1,6 +1,8 @@
 langchain
 langgraph
 pydantic-settings
+langfuse
+langchain-openai
 
 # llm-factory
 git+https://github.com/shashankbiet/llm-factory
