@@ -1,0 +1,6 @@
+langchain
+langgraph
+pydantic-settings
+
+# llm-factory
+git+https://github.com/shashankbiet/llm-factory
